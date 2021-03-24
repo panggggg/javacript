@@ -27,7 +27,7 @@ var age = 21
 console.log(typeof 21) //typeof เป็นการบอกว่าเป็นตัวแปรชนิดอะไร
 alert(typeof 21)
 
-///////////////////////////////////////////////////// NaN = Not a Number////////
+/////////////////// NaN = Not a Number///////////////
 
 var x = 20
 {
@@ -40,4 +40,16 @@ console.log(x)
 
 ////////////////////////////////////////////////////////
 
-prompt("Hello World") //prompt เป็นช่องให้userกรอกinputคล้ายๆalert
+var name_prompt = prompt("Hello World") //prompt เป็นช่องให้userกรอกinputคล้ายๆalert
+console.log(name_prompt)
+alert(typeof name_prompt)
+console.log("Hello " + name_prompt)
+
+///////////////////////////////////////////////////////
+
+console.log(4 == 4) //true
+console.log(4 == "4") //true
+console.log(4 === "4") //false ข้อมูลเหมือนกันแต่ชนิดข้อมูลไม่เหมือนกัน
+
+///////////////////////////////////////////////////////
+
