@@ -9,7 +9,11 @@ console.log(rand)
 
 document.getElementById("result").innerHTML = rand
 
-
+if (number == rand) {
+    document.getElementById("reward").innerHTML = "ยินดีด้วยคุณถูกรางวัล"
+} else {
+    document.getElementById("reward").innerHTML = "เสียใจด้วยคุณไม่ถูกรางวัล"
+}
 
 
 
