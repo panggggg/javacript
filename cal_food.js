@@ -9,7 +9,7 @@ for (var i = 1; i <= quantity; i++) {
     var price = prompt("อาหารรายการที่ " + i + ":")
     console.log(price)
     document.getElementById("price").innerHTML += "อาหารรายการที่ " + i + ": " + price + " บาท" + "<br>"
-    sum = sum + parseInt(price)
+    sum = sum + parseInt(price) //parseInt covert string to integer
     console.log(sum)
 }
 
